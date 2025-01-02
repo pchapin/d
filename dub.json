@@ -1,0 +1,16 @@
+{
+    "name": "sandbox",
+    "targetType": "executable",
+    "description": "D Sandbox",
+    "authors": [ "Peter Chapin" ],
+    "copyright": "Copyright © 2025, Peter Chapin",
+    "license": "apache-2.0",
+    "buildTypes": {
+        "debug": {
+            "dflags": [ "-g" ]
+        },
+        "release": {
+            "dflags": [ "-O", "-release" ]
+        }
+    }
+}
